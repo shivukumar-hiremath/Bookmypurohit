@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>BookMyPurohit.in</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: #fffdf5;
+      color: #333;
+    }
+    header {
+      background-color: #ffcc66;
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 1.8rem;
+    }
+    nav a {
+      margin-left: 1.5rem;
+      text-decoration: none;
+      color: #333;
+      font-weight: bold;
+    }
+    .hero {
+      background: url('https://i.imgur.com/WYpN6vh.jpg') center/cover no-repeat;
+      color: white;
+      padding: 4rem 2rem;
+      text-align: center;
+    }
+    .hero h2 {
+      font-size: 2rem;
+      margin-bottom: 0.5rem;
+    }
+    .hero p {
+      font-size: 1.2rem;
+    }
+    .section {
+      padding: 2rem;
+    }
+    .section h3 {
+      color: #cc6600;
+      margin-bottom: 1rem;
+    }
+    .services {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+    }
+    .service-card {
+      background: #fff7e6;
+      border: 1px solid #f2d48a;
+      border-radius: 8px;
+      padding: 1rem;
+      width: 30%;
+    }
+    .service-card h4 {
+      margin-top: 0;
+    }
+    .book-btn {
+      display: inline-block;
+      margin-top: 1.5rem;
+      padding: 0.75rem 1.5rem;
+      background-color: #4caf50;
+      color: white;
+      font-size: 1.1rem;
+      border: none;
+      border-radius: 5px;
+      text-decoration: none;
+    }
+    footer {
+      background-color: #eee;
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+    }
+    @media (max-width: 768px) {
+      .services {
+        flex-direction: column;
+      }
+      .service-card {
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>BookMyPurohit.in</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="services.html">Services</a>
+      <a href="#">About</a>
+      <a href="#">Contact</a>
+    </nav>
+  </header>
+  <section class="hero">
+    <h2>Book a Trusted Purohit Near You</h2>
+    <p>ಪೂಜಾ ಸೇವೆಗಳಿಗೆ ಈಗಲೇ ಬುಕ್ ಮಾಡಿ - Quick & Simple!</p>
+  </section>
+  <section class="section">
+    <h3>About Us / ನಮ್ಮ ಬಗ್ಗೆ</h3>
+    <p>We offer professional purohit services for Hindu rituals like Ashlesha Bali, Gruhapravesha, Shani Shanti, and more. Available in Kannada, Sanskrit, Hindi, and Telugu. Book easily via WhatsApp!</p>
+  </section>
+  <section class="section">
+    <h3>Our Services / ನಮ್ಮ ಸೇವೆಗಳು</h3>
+    <div class="services">
+      <div class="service-card">
+        <h4>Ashlesha Bali</h4>
+        <p>Performed on Ashlesha Nakshatra for Sarpa Dosha remedies.</p>
+      </div>
+      <div class="service-card">
+        <h4>Shani Shanti</h4>
+        <p>For peace during Shani Dasha & Sade Sati period.</p>
+      </div>
+      <div class="service-card">
+        <h4>Gruhapravesha</h4>
+        <p>Housewarming puja with vastu shanti and homa.</p>
+      </div>
+    </div>
+    <a class="book-btn" href="https://wa.me/91XXXXXXXXXX" target="_blank">📱 Book Now on WhatsApp</a>
+  </section>
+  <footer>
+    <p>© 2025 BookMyPurohit.in | Call/WhatsApp: +91-XXXXXXXXXX</p>
+  </footer>
+</body>
+</html>
